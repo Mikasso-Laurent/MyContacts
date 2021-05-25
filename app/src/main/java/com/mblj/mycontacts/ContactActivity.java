@@ -169,7 +169,7 @@ public class ContactActivity extends AppCompatActivity {
             picRef.delete().addOnSuccessListener(new OnSuccessListener<Void>() {
                 @Override
                 public void onSuccess(Void aVoid) {
-                    Log.d("Delete image", "Image Successfully Deleted");
+                    Log.d("Delete image", "Image Successfully deleted");
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
